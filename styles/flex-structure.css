@@ -1,0 +1,92 @@
+body{
+	background: rgb(188, 255, 185);
+}
+p::selection{
+	background-color: rgb(182, 103, 61);
+	color: rgb(254, 205, 187);
+}
+p{
+	font-family: sans-serif;
+	color: rgb(157, 94, 36);
+	font-size: 19pt;
+}
+main{
+	margin-top: 60px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+main div{
+	margin-top: 40px;
+}
+
+.P1{
+	display: flex;
+	flex-flow: row-reverse nowrap;
+	justify-content: center;
+
+}
+.P1 p{
+	flex-shrink: 5;
+	text-align: justify;
+	margin-right: 40px; 
+	flex-basis: 460px;
+}
+.P3{
+	text-align:justify;
+	margin-top: 55px;
+	width: 800px;
+}
+
+#img1{
+	width: 1100px;
+}
+#img2{
+	width: 600px;
+}
+
+main i{
+	margin-left: 700px;
+	text-align: right;
+}
+
+main i:before{content: "*";}
+
+img{
+	border-radius: 39px 0 39px 39px;
+}
+
+a {cursor: default;}
+
+h1{
+	font-family: sans-serif;
+	color: rgb(157, 94, 36);
+	cursor: default;
+}
+h1::selection{
+	background-color: rgb(182, 103, 61);	
+	color: rgb(254, 205, 187);
+}
+
+p+h1{
+	padding-top: 80px;
+}
+h2{
+	cursor: default;
+}
+.ending a{
+	text-decoration: none;
+	color: rgb(1, 133, 220);
+}
+.ending a:hover{
+	cursor: default;
+	text-decoration: none;
+	color: rgb(75, 183, 254);
+}
+.ending{
+	text-align: center;
+	color: rgb(157, 94, 36);
+}

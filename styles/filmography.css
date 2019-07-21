@@ -1,0 +1,65 @@
+body {
+	background: rgb(211, 245, 160);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+    padding-top: 60px;  
+}
+
+svg{
+    margin-left: 140px;
+}
+
+td img{
+	height: 200px;
+	width: 140px;
+	width: auto;
+}
+
+tr{
+	background: rgba(0, 0, 0, 0.1); 
+}
+tr.second{
+	background: rgba(250, 250, 250, 0.1);
+}
+table{
+	font-family: sans-serif;
+	font-size: 14pt;
+	color: rgb(157, 94, 36);
+	border: 2px;
+	text-align: center;
+	vertical-align: center;
+	margin-bottom: 70px;
+}
+td{
+	width: 120px;
+	padding: 20px;
+}
+td.ImageCell{
+	padding: 0;
+}
+h2{
+ 	text-align: center;
+ 	font-family: sans-serif;
+ 	color: rgb(157, 94, 36);
+ 	font-size: 19pt;}
+}
+
+h2::selection{
+ 	background-color: rgb(182, 103, 61);
+ 	color: rgb(254, 205, 187);
+}
+
+table a{
+	font-family: sans-serif;
+	font-size: 17pt;
+	text-decoration: none;
+	color: green;
+}
+
+table a:hover{
+	color: blue;
+}

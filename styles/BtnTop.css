@@ -1,0 +1,46 @@
+#scrollToTop{
+	position: fixed;
+	right: 75px;
+	bottom: 165px;
+	width: 60px;
+	height: 60px;
+	opacity: 0;
+	transition: all 0.5s ease-in;
+	border-radius: 50%;
+	background-color: grey;
+	cursor: default;
+
+}
+
+#scrollToTop:hover{
+	background: rgb(200, 200, 200);
+	transition: 0.08s ease-in;
+	transform: scale(1.04, 1.04);
+	transform: rotate();
+}
+
+
+#scrollToTop div::selection{
+	background-color: none;	color: none;
+}
+
+#scrollToTop div{
+	font-size: 40px;
+	font-weight: bold;
+	color: rgb(161, 145, 59);
+	font-family: sans-serif;
+
+}
+
+
+
+#scrollToTop .left{
+	margin-left: 16px;
+	margin-top: 15px;
+	transform: rotate(35deg);
+}
+#scrollToTop .right{
+	margin-left: 26px;
+	margin-top: -61px;
+	transform: rotate(-35deg);
+}

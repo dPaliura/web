@@ -1,0 +1,124 @@
+body{		
+	background: rgb(150, 255, 175);
+}
+main {		
+	display: flex;					
+	flex-direction: column;		
+	flex-wrap: nowrap;		
+	align-items: center;	
+	justify-content: center;		
+	width: 100%;
+}
+
+main div{	
+	width: 1100px;
+}
+
+
+
+.img-L{			
+	display: flex;			
+	flex-flow: row-reverse nowrap;	
+	justify-content: space-between;
+}
+.img-L p{		
+	flex-basis: 500px;
+}
+.img-L img{		
+	border-radius: 0 39px 39px 39px;
+}
+.img-R{			
+	display: flex;			
+	flex-flow: row nowrap;			
+	justify-content: space-between;
+}
+.img-R p{		
+	flex-basis: 500px;
+}
+.img-R img{		
+	border-radius: 39px 0 39px 39px;
+}
+.img-R i{		
+	text-align: right;
+}
+.img-Center{	
+	align-items: center;	
+	display: flex;					
+	flex-direction: column;				
+	justify-content: center;
+}
+.img-Center img{
+	border-radius: 0 0 39px 39px;
+}
+.img{			
+	margin-top: 40px;		
+	display: flex;					
+	flex-direction: column;				
+	width: 550px;
+}
+i:before{
+	content: "*"
+}
+
+
+
+p::selection{	
+	background-color: rgb(182, 103, 61);	
+	color: rgb(254, 205, 187);
+}
+p{				
+	text-align: justify;					
+	font-family: sans-serif;		
+	color: rgb(157, 94, 36);	
+	font-size: 19pt;
+}
+
+h1{				font-family: sans-serif;				color: rgb(157, 94, 36);		cursor: default;}
+h1::selection{	background-color: rgb(182, 103, 61);	color: rgb(254, 205, 187);}
+h2{				font-family: sans-serif;				color: rgb(157, 94, 36);		cursor: default;}
+h2::selection{	background-color: rgb(182, 103, 61);	color: rgb(254, 205, 187);}
+h3{				font-family: sans-serif;				color: rgb(157, 94, 36);		cursor: default;}
+h3::selection{	background-color: rgb(182, 103, 61);	color: rgb(254, 205, 187);}
+h4{				font-family: sans-serif;				color: rgb(157, 94, 36);		cursor: default;}
+h4::selection{	background-color: rgb(182, 103, 61);	color: rgb(254, 205, 187);}
+h5{				font-family: sans-serif;				color: rgb(157, 94, 36);		cursor: default;}
+h5::selection{	background-color: rgb(182, 103, 61);	color: rgb(254, 205, 187);}
+h6{				font-family: sans-serif;				color: rgb(157, 94, 36);		cursor: default;}
+h6::selection{	background-color: rgb(182, 103, 61);	color: rgb(254, 205, 187);}
+
+
+
+.ending a{			
+	text-decoration: none;		
+	color: rgb(1, 133, 220);
+}
+.ending a:hover{	
+	cursor: default;			
+	text-decoration: none;		
+	color: rgb(75, 183, 254);
+}
+.ending{			
+	text-align: center;			
+	color: rgb(157, 94, 36);	
+	margin-top: 50px
+}
+
+
+#img1{width: 550px;		height: 332px;		margin-top: 40px;}
+#img2{width: 550px;		height: 390px; 		margin-top: 40px;}
+#img3{width: 550px;		height: 367px; 		margin-top: 40px;}
+#img4{width: 1000px; 	height: 562px;}
+#img5{width: 550px; 						margin-top: 65px;}
+#img6{width: 800px; 	height: 515px; 		margin-top: 40px;}
+#img7{width: 1024px;	height: 771px;		border-radius: 39px 39px 0 0;}
+#img8{width: 550px; 	height: 733px; 		margin-top: 40px;}
+
+#last-margin{
+	margin-top: 150px; 
+	margin-bottom: 15px; 
+	font-size: 18pt;
+}
+
+.marg60{margin-top: 60px;}
+.marg80{margin-top: 80px;}
+.marg100{margin-top: 100px;}

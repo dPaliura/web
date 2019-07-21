@@ -1,0 +1,134 @@
+body{
+	margin: 0;
+}
+header {
+	width: 100%;
+	height: 320px;
+	background: url(bg-sky.png);
+	background-size:  auto 100%;
+	background-repeat-y: no-repeat;
+	margin-bottom: 60px;
+}
+
+.menu{
+	height: 150px;
+	width: 1080px;
+	margin: 0;
+}
+
+.naming {
+	display: block;
+	line-height: 160px;
+	margin-left: 140px;
+	height: 200px;
+
+}
+
+.naming a{
+	cursor: default;
+	text-decoration: none;
+	color: #417644;
+	font-family:sans-serif;
+	font-weight:800;
+	font-size: 60px;
+	text-overflow: hidden;
+	transition: 0.6s ease-out;
+}
+
+.naming a:hover{
+	color:#3f9044;
+	transition: 0.4s ease-out;
+}
+
+nav{
+	list-style-type: none;
+	margin-top: 10px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	height: 140px;
+	width: 83%
+}
+
+.signature{
+	cursor: default;
+	width: 200px;
+}
+
+nav li{
+	display: inline-block;
+}
+
+nav a {
+	cursor: default;
+	vertical-align: middle;
+	text-align: center;
+	display: block;
+	height: 150px;
+	width: 200px;
+	color: cyan;
+	text-decoration: none;
+	padding-bottom: -20px; 
+}
+
+header .outer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+header .outer .inner{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-end;
+}
+.userSet {
+	font-family: sans-serif;
+	width: 220px;
+	font-weight: 200;
+	text-align: center;
+	cursor: default;
+}
+.userSet div{
+	padding-bottom: 7px;
+	color: rgb(157, 94, 36);
+}
+.userSet::selection{
+	color: none;
+	background: none;
+}
+.userSet a{
+	text-decoration: none;
+	font-weight: 400;
+	padding-margin: 10px;
+	font-family: sans-serif;
+	color: rgb(140, 138, 53);
+	transition: all 0.2s ease;
+}
+.userSet a:hover{
+	color: rgb(51, 196, 123);
+}
+
+nav a.bio:link { background: url(bio-link.png) no-repeat; background-size: 200px 120px; }
+nav a.bio:hover { background: url(bio-hover.png) no-repeat; background-size: 200px 120px; }
+nav a.bio:active { background: url(bio-active.png) no-repeat; background-size: 200px 120px; }
+
+nav a.studio:link { background: url(studio-link.png) no-repeat; background-size: 200px 120px; }
+nav a.studio:hover { background: url(studio-hover.png) no-repeat; background-size: 200px 120px; }
+nav a.studio:active { background: url(studio-active.png) no-repeat; background-size: 200px 120px; }
+
+nav a.media:link { background: url(media-link.png) no-repeat; background-size: 200px 120px; }
+nav a.media:hover { background: url(media-hover.png) no-repeat; background-size: 200px 120px; }
+nav a.media:active { background: url(media-active.png) no-repeat; background-size: 200px 120px; }
+
+nav a.film:link { background: url(filmography-link.png) no-repeat; background-size: 200px 120px; }
+nav a.film:hover { background: url(filmography-hover.png) no-repeat; background-size: 200px 120px; }
+nav a.film:active { background: url(filmography-active.png) no-repeat; background-size: 200px 120px; }
+
+nav a.contacts:link { background: url(contacts-link.png) no-repeat; background-size: 200px 120px; }
+nav a.contacts:hover { background: url(contacts-hover.png) no-repeat; background-size: 200px 120px; }
+nav a.contacts:active { background: url(contacts-active.png) no-repeat; background-size: 200px 120px; }
+
+nav a:hover{ transform: translateY(10px); transition: all 0.3s ease-out}
+nav a{ transition: all 0.6s ease-in-out}
+nav a:active{ transition: all 0.15s ease-out}
+

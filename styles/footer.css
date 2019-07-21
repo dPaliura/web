@@ -1,0 +1,67 @@
+footer .menu{
+	display: flex;
+	height: 80px;
+	width: 100%
+	border: 0;
+	margin: 0;
+	padding: 0;
+
+	list-style: none;
+	font-size: 19px;
+	align-items: center;
+	justify-content: center;
+}
+
+footer {
+	display: box;
+	height: 80px;
+	width: 100%;
+	background-color: rgb(97, 130, 66);
+	border-radius: 17px 17px 0 0;
+	opacity: 1;
+	margin-top: 100px;
+	cursor: default;
+	transition: 0.2s ease-out;
+}
+footer:hover{
+	opacity: 0.98;
+	transition: 0.31s ease-out;
+	background-color: rgb(123, 136, 104);
+}
+
+footer::selection{
+	color: none;
+	background-color: none;
+}
+
+footer .menu .active{
+	height: 19px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	opacity: 0.9;
+}
+footer .menu .active:hover{
+	border:2px solid rgb(0, 85, 43);
+	padding-left: 8px;
+	padding-right: 8px;
+	border-radius: 20px;
+	transition: 0.4s;
+}
+footer a{
+	color: rgb(234, 187, 188);
+	text-decoration: none;
+	opacity: 0.91;
+	cursor: default;
+}
+footer a:hover{
+	color: rgb(234, 160, 155);
+	opacity: 1;
+}
+footer .chosen{
+	color: white;
+	opacity: 0.92;
+	font-weight: 2;
+	padding: 12px;
+}

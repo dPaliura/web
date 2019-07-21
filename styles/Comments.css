@@ -1,0 +1,132 @@
+.AjaxButton{
+	background: rgb(215, 143, 113);
+	color: white;
+	border-radius: 5px 17px; 
+	width: 110px;
+	padding: 10px;
+	text-align: center;
+	margin-top: 150px;
+	cursor: default;
+	transition: all 0.3s;
+	margin: 60px 0 0 0;
+	font-family: sans-serif;
+}
+.AjaxButton:hover{
+	background: gray;
+	transition: all 0.3s ease-out;
+	border-radius: 17px 5px; 
+}
+.AjaxButton::selection{
+	color: none;
+	background-color: none;
+}
+
+#comments{
+	margin-bottom: 35px;
+}
+
+.confirm{
+	background: gray;
+	color: white;
+	border-radius: 17px 5px; 
+	width: 100px;
+	padding: 10px;
+	text-align: center;
+	cursor: default;
+	transition: all 0.3s;
+	font-family: sans-serif;
+}
+.confirm:hover{
+	background: rgb(215, 143, 113);
+	transition: all 0.3s ease-out;
+	border-radius: 5px 17px; 
+}
+.confirm::selection{
+	color: none;
+	background-color: none;
+}
+
+#commentaries{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#commentsWindow{
+	height: 400px;
+	width: 700px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	border: 2px solid green;
+	padding: 25px;
+	padding-top: 15px;
+	border-radius: 30px 0 0 30px;
+	transition: all 0.6s ease;
+	background: rgba(100, 100, 100, 0.1);
+}
+#commentsWindow::-webkit-scrollbar {
+    width: 8px;
+}
+ 
+#commentsWindow::-webkit-scrollbar-track {
+   background: rgba(0,0,0,0.3);
+}
+ 
+#commentsWindow::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,0.5); 
+}
+.commentar{
+	border-left: gray solid 1px;
+	padding: 0 0 0 15px;
+	border-radius: 10px;
+	margin-top: 0;
+}
+
+.commentar blockquote{
+	color: rgb(157, 94, 36);
+	font-family: sans-serif;
+}
+.commentar h3{
+	color: rgb(3, 95, 163);
+	font-family: sans-serif;
+	font-size: 15pt;
+}
+
+#rolling{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	transition: 0.6s ease;
+	margin-top: 0;
+}
+
+
+.hidden{
+	height: 0;
+	overflow-y: hidden;
+	transition: 0.6s ease;
+}
+
+.CommentsMessage{
+	text-align: center;
+	font-family: sans-serif;
+	color: rgb(157, 94, 36);
+	padding: 10px;
+	margin-top: 35px;
+}
+.CommentsMessage a{
+	text-align: center;
+	font-family: sans-serif;
+	color: rgb(137, 114, 46);
+	text-decoration:none;
+	transition: all 0.3s ease;
+}
+.CommentsMessage a:hover{
+	color: orange;
+	transition: all 0.3s ease;
+
+}
+.commentar blockquote::selection{	
+	background-color: rgb(182, 103, 61);
+	color: rgb(254, 205, 187);}
